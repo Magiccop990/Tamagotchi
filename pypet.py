@@ -9,9 +9,9 @@ cat = {
 }
 
 #feeding
-def feed(cat):
-	pet['hungry'] = False
-	pet['weight'] = pet['weight'] + 1.1
+def feed(pet):
+    pet['hungry'] = False
+    pet['weight'] = pet['weight'] + 1.1
 
 feed(cat)
 # now some printing
