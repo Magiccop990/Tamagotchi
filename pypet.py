@@ -1,4 +1,4 @@
-from tkinter import *
+om tkinter import *
 from tkinter import messagebox
 global name, photo
 
@@ -39,7 +39,7 @@ def feed(pet):
 def feeding(pet):
 	if input("Feed your cat? ") == "yes":
 		feed(pet)
-		print("Feeding your %s") % (cat.get("name"))
+		print("Feeding your %s") % ( cat.get("name") )
 	else:
 		print("So you want your cat to starve? ")
 #----------------------------------------------------------------------
